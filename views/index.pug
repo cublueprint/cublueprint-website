@@ -1,0 +1,86 @@
+extends layouts/main
+block nav
+    - var cur = "home"
+block content
+    header(style='background-image: url("assets/img/HomeBanner.png");')
+        .container
+            .row.text-center
+                .col-md-6.col-lg-6
+                    h1.text-white Tech for Social Good
+                        br
+                    p.text-white
+                        | We're a team of students at Carleton University that develops pro-bono
+                        | apps for nonprofits and promotes tech for social good.
+                        br
+                    .buttons.pt-3
+                    a.btn.btn-light.text-primary.rounded-0.bg-white.text-blue.button-text.blueprint-button(role='button' href='https://www.facebook.com/cuBlueprint')
+                        | LEARN MORE
+                        br
+                    a.btn.btn-outline-light.rounded-0.ml-2.btn.button-text.blueprint-button(role='button' href='apply.html')
+                        | APPLY
+                        br
+    section#section-about
+        .container
+            .underline-container
+                h2 About Us
+                .underline
+            .row.px-5.mx-5.pt-5
+                .col-sm-12.col-md-6.col-lg-6
+                    img.d-block.m-auto(srcset='assets/img/carleton-university-vector-logo.png' style='max-width: 300px;')
+                .col-sm-12.col-md-6.col-lg-6.modal-dialog
+                    p.text-blue.text-lg
+                        | Blueprint strives to make technology accessible and useful for
+                        | those who create communities and promote public welfare
+                        br
+            .row.px-5.mx-5.pt-5
+    section#section-get
+        .container
+            .underline-container
+                h2 Get Involved
+                .underline
+            .row.px-5.mx-5.pt-5
+                .col-sm-12.col-md-6.col-lg-6
+                    img.img-fluid.d-block.m-auto.d-sm-block.d-md-none.d-lg-none(src='assets/img/ApplyStudents.png' width='280')
+                    h3.text-blue.text-cap
+                        | Students
+                    br
+                    p.pt-3
+                        | Applications will open for student developers at the beginning of each semester.
+                        | Follow our Facebook page to stay updated!
+                        br
+                    a.btn.btn-outline-primary.rounded-0.blueprint-button(role='button' href='forstudent.html')
+                        | LEARN
+                        | MORE
+                        br
+                .col-sm-12.col-md-6.col-lg-6
+                    img.img-fluid.d-block.m-auto.hidden-xs(src='assets/img/ApplyStudents.png' width='280')
+            .row.px-5.mx-5.pt-5
+                .col-sm-12.col-md-6.col-lg-6
+                    img.img-fluid.d-block.m-auto(src='assets/img/ApplyNPO.png' width='270')
+                .col-sm-12.col-md-6.col-lg-6
+                    h3.pt-4.text-blue.text-cap 
+                        | Nonprofit Organizations
+                        br
+                    p.pt-3
+                        | If you're a nonprofit organization with a project in mind, we encourage you to
+                        | apply! We accept NPO applications every June. Follow our Facebook page to stay updated!
+                        br
+                    a.btn.btn-outline-primary.rounded-0.blueprint-button(role='button' href='fornonprofit.html')
+                        | LEARN
+                        | MORE
+                        br
+    section#section-contact.section-blue.text-white
+        .container
+            h1.text-white Contact Us
+            br
+            .w-50
+                p
+                    br
+                    | We are looking for non-profits who are in need of technological solutions, as well as
+                    |                         partners interested in supporting us and our cause.
+                    br
+                    br
+            div
+                a.btn.btn-light.text-primary.rounded-0.bg-white.text-blue.button-text.blueprint-button(role='button' href='mailto:cublueprint@gmail.com') CONTACT US
+                a.btn.btn-outline-light.rounded-1.ml-2.rounded-0.blueprint-button(role='button' href='https://www.facebook.com/cublueprint/') FACEBOOK PAGE
+                    br

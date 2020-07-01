@@ -1,0 +1,21 @@
+{
+  "name": "cublueprint-website",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pug views/*.pug --out ./deploy && cp -r assets ./deploy && cp favicon.ico ./deploy",
+    "devStart": "pug views/*.pug --out ./deploy --pretty && cp -r assets ./deploy && cp favicon.ico ./deploy",
+    "clean": "rm -r deploy",
+    "compressImage": "imagemin assets/img/* -o deploy/assets/img && imagemin assets/profile/* -o deploy/assets/profile",
+    "beforeDeploy": "npm start && npm run compressImage"
+  },
+  "author": "cuBlueprint",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.0",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-cli": "^6.0.0"
+  }
+}

@@ -1,0 +1,166 @@
+extends layouts/main
+block nav
+    -var cur='about'
+block content
+    section.banner(style='background-image: url("assets/img/AboutBanner.png");')
+        .container
+            .row.text-center
+                .col-md-6.col-lg-6
+                    h1.text-white About The Club
+                    br
+                    p.text-white.pt-2
+                        | We're a club at Carleton University that develops pro-bono apps for
+                        | nonprofits and promotes tech for social good.
+                        br
+    nav.navbar.navbar-light.navbar-expand.nav-mid
+        .container-fluid
+            .navbar-collapse.justify-content-center
+                ul.nav.navbar-nav
+                    li.nav-item.footer-text.footer-header(role='presentation')
+                    a.nav-link.active(href='#section-mission') Mission
+                    li.nav-item.footer-text.footer-header(role='presentation')
+                    a.nav-link(href='#section-value') Values
+                    li.nav-item.footer-text.footer-header(role='presentation')
+                    a.nav-link(href='#section-team') Team
+                    li.nav-item.footer-text.footer-header(role='presentation')
+                    a.nav-link(href='#section-chapter') Chapters
+    section#section-mission
+        .container.text-center
+            .underline-container
+                h2 Our Mission Statement
+                .underline
+            p.pt-4.pb-5.text-blue.text-lg(style='max-width: 500px; margin: auto;')
+                | To make beautiful
+                | engineering accessible and useful for those who create communities and promote public welfare.
+                br
+            img.img-fluid.d-block.m-auto.pt-3(src='assets/img/About.png' width='400' style='display: block;')
+            br
+    section#section-value.section-gray.mt-5.pt-5
+        .container
+            .underline-container
+                h2 Our Values
+                .underline
+            .row.px-5.mx-5.pt-5
+                .col-sm-12.col-md-6.col-lg-6
+                    h3.text-blue
+                        span(style='padding-right: 1em;') 01
+                        | Mission First
+                        br
+                    p.pt-3
+                        | We as Blueprint members ultimately unify under one goal - achieving our mission.
+                        | We place the interests of the people and partners we serve above our own. Our primary
+                        | measure of success is the amount of positive impact we create through
+                        | our work
+                        br
+                .col-sm-12.col-md-6.col-lg-6
+                    h3.text-blue
+                        span(style='padding-right: 1em;') 02
+                        | Perpetual Growth
+                        br
+                    p.pt-3
+                        | We as Blueprint members value the academic, social, and personal growth of our
+                        | peers. We constantly seek to perpetuate the cycle of learning and teaching, for our benefit
+                        | and for others. We strive to offer a helping hand in times of need and push each other to
+                        | succeed.
+                        br
+            .row.px-5.mx-5.pt-4
+                .col-sm-12.col-md-6.col-lg-6
+                    h3.text-blue
+                        span(style='padding-right: 1em;') 03
+                        | Cherish Culture
+                        br
+                    p.pt-3
+                        | We as Blueprint members seek to cherish our time spent together. We develop
+                        | meaningful relationships that extend well beyond the scope of the organization. We value
+                        | each other as individuals and appreciate our differences.
+                        br
+                .col-sm-12.col-md-6.col-lg-6
+                    h3.text-blue
+                        span(style='padding-right: 1em;') 04
+                        | Innovate
+                        br
+                    p.pt-3
+                        | We as Blueprint members recognize that change is both inevitable and necessary.
+                        | We are committed to innovate and emphasize effective solutions as needed in order to remain
+                        | relevant - nothing is sacred. We welcome new ideas and diverse thinking.
+                        br
+                .col-sm-12.col-md-6.col-lg-6.pt-4
+                    h3.text-blue
+                        span(style='padding-right: 1em;') 05
+                        | Stay Humble
+                        br
+                    p.pt-3
+                        | We as Blueprint members strive to remain humble, accept our imperfections, and
+                        | be receptive to feedback. We approach challenges with an open mind and remember that anyone
+                        | can pursue social good, not just Blueprint.
+                        br
+    section#section-team.pt-5.mt-5
+        .container
+            .underline-container
+                h2 Meet the Team
+                .underline
+            .row.px-5.mx-5.pt-5
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Denis_Headshot.jpg')
+                    p.button-text DENIS PO
+                    p.body-2 President
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Kat_Headshot.jpg')
+                    p.button-text KATRINA RONQUILLO
+                    p.body-2 VP Internal
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Hamza_Headshot.jpg')
+                    p.button-text HAMZA SOHAIL
+                    p.body-2 VP Technology
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Tasha_Headshot.jpg')
+                    p.button-text TASHA KARSAN
+                    p.body-2 VP Design
+            .row.px-5.mx-5.pt-4
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Maddie_Headshot.jpeg')
+                    p.button-text MADINSON TING
+                    p.body-2 VP External
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Aashna_Headshot.jpg')
+                    p.button-text AASHNA NARANG
+                    p.body-2 VP Projects
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture(src='assets/img/place2.png')
+                    p.button-text ALEXA LIASKOVSKI
+                    p.body-2 VP Events
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Omar_Headshot.jpg')
+                    p.button-text OMAR FLORES
+                    p.body-2 Design Chair
+            .row.px-5.mx-5.pt-4
+                .col-sm-12.col-md-3.col-lg-3.text-mob
+                    img.img-fluid.d-block.m-auto.team-picture.square(src='assets/profile/Helen_Headshot.jpg')
+                    p.button-text JEEHEON KIM
+                    p.body-2 Technology Chair
+    section#section-chapter.py-5.section-gray
+        .container
+            .underline-container
+                h2 Chapters
+                .underline
+            .w-75.m-auto
+                .row.pt-5.align-items-center
+                    .col-sm-12.col-md-4.col-lg-4
+                        img.img-fluid(src='assets/img/UCBerkeleyLogo.png')
+                    .col-sm-12.col-md-4.col-lg-4
+                        h3 UC Berkeley
+                    .col-sm-12.col-md-4.col-lg-4
+                        p
+                            | UC Berkeley founded the first Blueprint chapter. Now Blueprint is on its way to becoming
+                            | a national nonprofit organization. Stay tuned for updates!
+                            br
+                .row.pt-3.align-items-center
+                    .col-sm-12.col-md-4.col-lg-4
+                        img.img-fluid(src='assets/img/UniversityOfWaterloo_logo_horiz_rgb.png' style='margin-left:-1em;')
+                    .col-sm-12.col-md-4.col-lg-4
+                        h3 UW Blueprint
+                    .col-sm-12.col-md-4.col-lg-4
+                        p
+                            | Blueprint at the University of Waterloo is the second chapter, founded in 2015.
+                            br
+
