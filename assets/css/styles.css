@@ -93,6 +93,13 @@ p {
   }
 }
 
+.fixed-top {
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, 0px);
+  z-index: 9999;
+}
+
 .footer-header {
   color: black;
 }
