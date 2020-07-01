@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Work+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap');
 
 :root {
   --main-blue: #007BFF;
   --light-blue: #18A0FB;
   --light-blue-shade: #18A0FB40; 
   --light-grey: #7B7B7B;
+  --normal-fontweight: 500;
+  --bold-fontweight: 700;
 }
 
 h1 {
@@ -123,7 +125,7 @@ p {
 .navbar-light .navbar-nav .nav-link {
   color: var(--light-blue);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: var(--normal-fontweight);
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
