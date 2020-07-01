@@ -97,6 +97,7 @@ p {
 
 .fixed-top {
   left: 50%;
+  top: 5%;
   position: fixed;
   transform: translate(-50%, 0px);
   z-index: 9999;
