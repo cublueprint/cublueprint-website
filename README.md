@@ -16,8 +16,6 @@ Used PUG for quicker fix.
 # How to push to Github repository
 :warning: please make sure that you are **pulling** from this repository before making any changes
 
-Also, please remember to run `npm run clean` to ensure that you are only pushing neccessary files for development
-
 # How to deploy
 1. Run `npm run beforeDeploy` and pug files will be compiled into static html files.
 2. Deploy files in `/deploy` directory
