@@ -483,3 +483,12 @@ header {
   width: 200px;
   height: 200px;
 }
+
+.media-body p {
+  margin-bottom: 0;
+}
+
+.blueprint-dot {
+  width: 3rem;
+  margin-right: 3rem !important;
+}
