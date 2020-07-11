@@ -478,6 +478,9 @@ header {
     display: block;
     margin: auto;
   }
+  .square{
+    margin: auto;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
