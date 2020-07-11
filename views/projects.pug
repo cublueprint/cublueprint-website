@@ -21,11 +21,12 @@ block content
                                 br
     section#section-cproject.text-center
         .container
-            .underline-container
-                h2 Current Projects
-                .underline
+            .container.col-md-8
+                .underline-container.container
+                    h2 Current Projects
+                    .underline
             img.img-fluid.d-block.m-auto.pt-5.pb-5(src='assets/img/Projects_coming_soon.png' style='max-width: 350px;')
-            p.pb-3.pt-3(style='max-width: 400px; margin: auto;')
+            p.pb-3.pt-3(style='max-width: 600px; margin: auto;')
                 | We are currently looking to take on new
                 | opportunities for the 2020-2021 academic year. Stay Tuned!
             .buttons.pt-3.pb-3
@@ -34,26 +35,23 @@ block content
                         | COMING SOON
                         br
     section#section-pproject.section-gray
-        .container
+        .container.col-md-8
             .underline-container
                 h2 Past Projects
                 .underline
-            .row.px-5.mx-5.pt-5
+            .row.pt-5
                 .col-sm-12.col-md-6.col-lg-6
                     h3.mb-3 UW Blueprint
                     img.img-fluid(src='assets/img/UniversityOfWaterloo_logo_horiz_rgb.png' style='max-width: 300px; margin-left: -2.4em;')
                     br
-                    .buttons.pt-3
-                        a(href='https://github.com/uwblueprint')
-                            button.btn.btn-outline-primary.btn-lg.rounded-0.blueprint-button(type='button')
-                                | VIEW GITHUB
-                                br
+                    a.btn.btn-outline-primary.btn-lg.rounded-0.blueprint-button(href='https://github.com/uwblueprint') VIEW GITHUB
+                    br
                 .col-sm-12.col-md-6.col-lg-6
                     h3.mb-3 UC Berkeley Blueprint
                     img.img-fluid(src='assets/img/UCBerkeleyLogo.png' style='max-width: 300px; margin-left: -0.7em')
                     br
-                    .buttons.pt-3
-                        a(href='https://github.com/calblueprint')
-                            button.btn.btn-outline-primary.btn-lg.rounded-0.blueprint-button(type='button')
-                                | VIEW GITHUB
-                                br
+                    a.btn.btn-outline-primary.btn-lg.rounded-0.blueprint-button(role='button' href='https://github.com/calblueprint') VIEW GITHUB
+                    br                    
+
+
+                        //- a.btn.btn-primary.rounded-0.blueprint-button(role='button' href='forstudent.html')

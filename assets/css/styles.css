@@ -3,6 +3,7 @@
 :root {
   --main-blue: #007BFF;
   --light-blue: #18A0FB;
+  --gloomy-blue: #3982DE;
   --light-blue-shade: #18A0FB40; 
   --light-grey: #7B7B7B;
   --normal-fontweight: 500;
@@ -25,6 +26,13 @@ h3 {
   font-family: Work Sans;
   font-weight: 500;
   font-size: 22px;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: 18px;
   text-transform: capitalize;
 }
 
@@ -423,6 +431,12 @@ header {
   padding: 60px 0px;
 }
 
+
+.section-gloomy-blue {
+  background: var(--gloomy-blue);
+  padding: 60px 0px;
+}
+
 .section-gray {
   background: #F8F8F8;
   padding: 60px 0px;
@@ -480,6 +494,24 @@ header {
 
 .square {
   object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
+}
+
+.media-body p {
+  margin-bottom: 0;
+}
+
+.blueprint-dot {
+  width: 3rem;
+  margin-right: 3rem !important;
+}
+
+.blue-dot {
+  height: 2em;
+  width: 2em;
+  margin: 0 3em 0 0;
+  background-color: #008bff;
+  border-radius: 50%;
+  display: inline-block;
 }

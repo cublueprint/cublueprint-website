@@ -37,51 +37,56 @@ block content
                     a.nav-link(href='#') FAQs
     section.section-ser
         .container
-            .underline-container
-                h2 You are
-                .underline
+            .container.col-md-8
+                .underline-container
+                    h2 You are
+                    .underline
             .w-50.m-auto
-            .media.align-items-center.mb-4
-                img.img-fluid.mr-3(src='assets/img/student-place.png' width='20%')
-                .media-body
-                    h3 Motivated
-            .media.align-items-center.mb-4
-                img.img-fluid.mr-3(src='assets/img/student-place.png' width='20%')
-                .media-body
-                    h3 Self Driven
-            .media.align-items-center.mb-4
-                img.img-fluid.mr-3(src='assets/img/student-place.png' width='20%')
-                .media-body
-                    h3 Looking to help for social good
+                .media.align-items-center.mb-4
+                    img.img-fluid.mr-3(src='assets/img/ApplyStudents.png' width='20%')
+                    .media-body
+                        h4 MOTIVATED
+                .media.align-items-center.mb-4
+                    img.img-fluid.mr-3(src='assets/img/About.png' width='20%')
+                    .media-body
+                        h4 SELF DRIVEN
+                .media.align-items-center.mb-4
+                    img.img-fluid.mr-3(src='assets/img/ApplyNPO.png' width='20%')
+                    .media-body
+                        h4 LOOKING TO HELP FOR SOCIAL GOOD
+                .media.align-items-center.mb-4
+                    img.img-fluid.mr-3(src='assets/img/ApplyNPO.png' width='20%')
+                    .media-body
+                        h4 LOOKING TO GET INVOLVED IN THE COMMUNITY        
     section#section-process
-    .container
-        .underline-container
-            h2 The application process
-            .underline
-        .w-50.m-auto.pt-5
-        .media.align-items-center.mb-4
-            img.mr-3.img-fluid(src='assets/img/dot.png')
-            .media-body
-                h3 1. Apply
-                p.body-2.light-grey Your application is received by our team and reviewed 
-        .media.align-items-center.mb-4
-            img.mr-3.img-fluid(src='assets/img/dot.png')
-            .media-body
-                h3 2. Phone screen interviews
-                p.body-2.light-grey Your application is received by our team and reviewed 
-        .media.align-items-center.mb-4
-            img.mr-3.img-fluid(src='assets/img/dot.png')
-            .media-body
-                h3 3. Final decision
-                p.body-2.light-grey Your application is received by our team and reviewed 
-    section#section-decision.py-5.mb-4
-        .container.text-center
+        .container.col-md-8
             .underline-container
-                h2 Decision Criteria
+                h2 The application process
+                .underline
+            .w-75.m-auto.pt-5
+                .media.align-items-center.pb-5
+                    .blue-dot
+                    .media-body.blueprint-dot
+                        h3 1. Apply
+                        p.body-2.light-grey Submit your application form before the deadline
+                .media.align-items-center.pb-5
+                    .blue-dot
+                    .media-body.blueprint-dot
+                        h3 2. Phone screen interviews
+                        p.body-2.light-grey  Our team will contact you to schedule a phone interviewd 
+                .media.align-items-center.pb-5
+                    .blue-dot
+                    .media-body.blueprint-dot
+                        h3 3. Final decision
+                        p.body-2.light-grey Once all application and interview feedback has been reviewed 
+    section#section-decision.py-5.mb-4
+        .container.text-center.col-md-8.justify-content-center
+            .underline-container.container
+                h3 Decision Criteria
                 .underline
             .row.pt-4
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsPassion.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsPassion.png' width='50%')
                     h3
                         | Passion
                         br
@@ -89,7 +94,7 @@ block content
                         | Do you demonstrate a genuine passion for social good?
                         br
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsGrowth.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsGrowth.png' width='50%')
                     h3
                         | Growth
                         br
@@ -97,16 +102,16 @@ block content
                         | Do you push yourself to grow in any setting? Do you seek out new ways to grow?
                         br
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsResourceful.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsResourceful.png' width='50%')
                     h3
                         | Resourceful
                         br
                     p
                         | Do you adapt and explore in order to overcome difficulties?
                         br
-                .row.pt-5
+            .row.pt-5
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsAttitude.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsAttitude.png' width='50%')
                     h3
                         | Attitude
                         br
@@ -114,7 +119,7 @@ block content
                         | Do you demonstrate positive, hard-working attitude?
                         br
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsTeamwork.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsTeamwork.png' width='50%')
                     h3
                         | Teamwork
                         br
@@ -122,10 +127,23 @@ block content
                         | Do you display the ability to work well in a team?
                         br
                 .col-sm-12.col-md-4.col-lg-4
-                    img.img-fluid(src='assets/img/ApplyStudentsCulture.png')
+                    img.img-fluid.mb-4(src='assets/img/ApplyStudentsCulture.png' width='50%')
                     h3
                         | Culture
                         br
                     p
                         | Do you value empowering non-profits to achieve their missions through tech?
+                        br
+    section#section-contact.section-gloomy-blue.text-white
+            .container.justify-content-center.text-center
+                br
+                br
+                h2.text-white Applications are now open
+                .w-50.container
+                    p
+                        | Fill out the application form by August 7th at 11:59 p.m. EST
+                        br
+                        br
+                div
+                    a.btn.btn-light.text-primary.rounded-0.bg-white.text-blue.button-text.blueprint-button(role='button' href='https://docs.google.com/forms/d/12ul4oLWsrNKDV9BM98BiluVC3eD5-P8gQhb2btw41wM/') APPLY
                         br
