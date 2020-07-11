@@ -20,11 +20,11 @@ block content
                         | APPLY
                         br
     section#section-about
-        .container
+        .container.col-md-8
             .underline-container
                 h2 About Us
                 .underline
-            .row.px-5.mx-5.pt-5
+            .row.pt-5
                 .col-sm-12.col-md-6.col-lg-6
                     img.d-block.m-auto(srcset='assets/img/carleton-university-vector-logo.png' style='max-width: 300px;')
                 .col-sm-12.col-md-6.col-lg-6.modal-dialog
@@ -32,14 +32,13 @@ block content
                         | Blueprint strives to make technology accessible and useful for
                         | those who create communities and promote public welfare
                         br
-            .row.px-5.mx-5.pt-5
     section#section-get
-        .container
+        .container.col-md-8
             .underline-container
                 h2 Get Involved
                 .underline
-            .row.px-5.mx-5.pt-5
-                .col-sm-12.col-md-6.col-lg-6
+            .row.pt-5.justify-content-between.px-5
+                .col-sm-12.col-md-6.col-lg-5
                     img.img-fluid.d-block.m-auto.d-sm-block.d-md-none.d-lg-none(src='assets/img/ApplyStudents.png' width='280')
                     h3.text-blue.text-cap
                         | Students
@@ -48,16 +47,16 @@ block content
                         | Applications will open for student developers at the beginning of each semester.
                         | Follow our Facebook page to stay updated!
                         br
-                    a.btn.btn-outline-primary.rounded-0.blueprint-button(role='button' href='#')
+                    a.btn.btn-outline-primary.rounded-0.blueprint-button(role='button' href='forstudent.html')
                         | LEARN
                         | MORE
                         br
-                .col-sm-12.col-md-6.col-lg-6
+                .col-sm-12.col-md-6.col-lg-5
                     img.img-fluid.d-block.m-auto.hidden-xs(src='assets/img/ApplyStudents.png' width='280')
-            .row.px-5.mx-5.pt-5
-                .col-sm-12.col-md-6.col-lg-6
+            .row.pt-5.justify-content-between.px-3
+                .col-sm-12.col-md-6.col-lg-5
                     img.img-fluid.d-block.m-auto(src='assets/img/ApplyNPO.png' width='270')
-                .col-sm-12.col-md-6.col-lg-6
+                .col-sm-12.col-md-6.col-lg-5
                     h3.pt-4.text-blue.text-cap 
                         | Nonprofit Organizations
                         br
@@ -69,18 +68,16 @@ block content
                         | LEARN
                         | MORE
                         br
-    section#section-contact.section-blue.text-white
-        .container
-            h1.text-white Contact Us
-            br
-            .w-50
+    section#section-contact.section-blue.text-white.justify-content-center
+        .container.w-50
+                h1.text-white Contact Us
+                br
                 p
-                    br
                     | We are looking for non-profits who are in need of technological solutions, as well as
                     |                         partners interested in supporting us and our cause.
                     br
                     br
-            div
-                a.btn.btn-light.text-primary.rounded-0.bg-white.text-blue.button-text.blueprint-button(role='button' href='mailto:cublueprint@gmail.com') CONTACT US
-                a.btn.btn-outline-light.rounded-1.ml-2.rounded-0.blueprint-button(role='button' href='https://www.facebook.com/cublueprint/') FACEBOOK PAGE
-                    br
+                div
+                    a.btn.btn-light.text-primary.rounded-0.bg-white.text-blue.button-text.blueprint-button(role='button' href='mailto:cublueprint@gmail.com') CONTACT US
+                    a.btn.btn-outline-light.rounded-1.ml-2.rounded-0.blueprint-button(role='button' href='https://www.facebook.com/cublueprint/') FACEBOOK PAGE
+           
