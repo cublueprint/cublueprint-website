@@ -441,7 +441,7 @@ header {
   background: #F8F8F8;
   padding: 60px 0px;
   position: relative;
-  z-index: -2;
+  /* z-index: 0; */
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
